@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BFC</title>
+    <style>
+    .father{
+        width: 300px;
+        border: 1px solid red;
+        position: absolute;
+    }
+    .son1, .son2{
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        float: left;
+    }
+    .son2{
+        background-color: purple;
+    }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="son1"></div>
+        <div class="s   on2"></div>
+    </div>
+</body>
+</html>
